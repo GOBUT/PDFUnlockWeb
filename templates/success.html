@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PDF Decryptor</title>
+<link rel="stylesheet" href="{{ url_for('static', path='success_style.css') }}">
+</head>
+<body>
+    <h1>PDF Decryptor</h1>
+    <p>File successfully decrypted and saved at: {{ filename }}</p>
+    <a href="/download/{{filename}}" download><button>Download</button></a>
+    <a href="/clear"><button>清除所有已上传的文件</button></a>
+    <a href="/"><button>返回首页</button></a>
+</body>
+</html>

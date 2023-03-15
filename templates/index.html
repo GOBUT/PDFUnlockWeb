@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PDF Decryptor</title>
+<link rel="stylesheet" href="{{ url_for('static', path='style.css') }}">
+
+</head>
+<body>
+    <h1>PDF Decryptor</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="pdf" accept=".pdf" required>
+        <button type="submit">Upload</button>
+    </form>
+</body>
+</html>
+
+
