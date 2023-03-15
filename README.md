@@ -27,8 +27,8 @@ python main.py
 
 效果图：
 
-![image-20230315191401559](/Volumes/Data/fastApiProject/assets/image-20230315191401559.png)
+![image-20230315191401559](/assets/image-20230315191401559.png)
 
 解锁完成下载界面：
 
-![image-20230315191502025](/Volumes/Data/fastApiProject/assets/image-20230315191502025.png)
+![image-20230315191502025](/image-20230315191502025.png)
